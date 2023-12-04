@@ -1,0 +1,99 @@
+.outerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 1400px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.sold{
+    background: lightgreen;
+    font-size: 30px;
+    color: green;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid green;
+    padding: 20px;
+}
+
+.bought{
+    color: blue;
+    font-size: 30px;
+    background: lightblue;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.stock{
+    color: red;
+    font-size: 30px;
+    background: lightsalmon;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+
+.outerBox2 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70vw;
+    background: lightgray;
+    height: 350px;
+    border: grey dashed 2px;
+    border-radius: 3px;
+}
+.tvImage {
+display: flex;
+    align-items: center;
+    flex-basis: 400px;
+    margin-left: 40px;
+}
+
+.innerBox2 {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-left: 30px;
+    height: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+.specs{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    max-height: 25px;
+    justify-content: flex-start;
+    padding: 1px;
+
+}
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
